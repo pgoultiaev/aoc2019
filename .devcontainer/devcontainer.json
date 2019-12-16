@@ -3,5 +3,8 @@
 	"dockerFile": "Dockerfile",
 	"extensions": [
 		"alanz.vscode-hie-server"
-	]
+	],
+	"settings": {
+		"languageServerHaskell.hlintOn": true
+	}
 }

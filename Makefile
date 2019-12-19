@@ -1,5 +1,5 @@
-run-day-x:
+run:
 	ghc --make ./$(DAY)/$(DAY) && cd $(DAY) && ./$(DAY)
 
-clean-day-x:
+clean:
 	$(RM) $(DAY)/$(DAY).hi && $(RM) $(DAY)/$(DAY).o $$ $(RM) $(DAY)/$(DAY)

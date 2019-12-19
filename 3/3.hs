@@ -26,7 +26,6 @@ traverseDistanceAB :: [(Int, Int)] -> [(Int, Int)] -> (Int, Int) -> Int
 traverseDistanceAB a b loc =
     fromMaybe 0 (List.elemIndex loc a) + fromMaybe 0 (List.elemIndex loc b)
 
-
 manhattanDistanceToOrigin :: (Int, Int) -> Int
 manhattanDistanceToOrigin (0, 0) = 0
 manhattanDistanceToOrigin a      = abs (fst a) + abs (snd a)
